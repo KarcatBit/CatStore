@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatStore</title>
+    <link rel="stylesheet" href="./stylecontacto.css">
+    <script type="module" src="./contacto.js"></script>
+</head>
+
+<body>
+    <!--INICIO NAVBAR-->
+    <header class="site-header">
+        <nav class="header-navbar">
+
+            <ul>
+                <li class="logo-navbar"><a href="index.html"><img src="./img/logo2.png" alt="Logo"></a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+                <li><a href="#Nosotros">Nosotros</a></li>
+                <li><a href="index.html">Categorias</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <!--FIN NAVBAR-->
+
+    <section class="formulario">
+
+        <h1>CONTACTANOS</h1>
+
+        <div class="formulario-input">
+            <label for="fnombre">Nombre</label>
+            <input type="text" id="fnombre" name="fnombre">
+            <p id="error-msg_nombre"></p>
+        </div>
+
+
+        <div class="formulario-input">
+            <label for="fapellido">Apellido</label>
+            <input type="text" id="fapellido" name="fapellido">
+            <p id="error-msg_apellido"></p>
+
+        </div>
+
+
+        <div class="formulario-input">
+            <label for="rut">Rut</label>
+            <input type="text" id="rut" name="rut">
+            <p id="error-msg_rut"></p>
+        </div>
+
+
+        <div class="formulario-input">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+            <p id="error-msg_email"></p>
+        </div>
+
+
+        <div class="formulario-input">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="comment_text" name="user_comment" rows="5" cols="40"
+                placeholder="Escribe tu mensaje aca..."></textarea>
+            <p id="error-msg_comment"></p>
+        </div>
+
+
+        <button type="submit" id="boton-enviar">Enviar</button>
+
+        <p id="successful_msg" class="s_msg">¡FORMULARIO ENVIADO CON EXITO!</p>
+
+    </section>
+
+
+
+</body>
+
+</html>

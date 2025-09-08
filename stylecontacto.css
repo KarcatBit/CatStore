@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background: url("./img/backgroundcontacto.png") no-repeat center center/cover;
+    height: 100vh;
+
+}
+
+
+.header-navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0.5rem 1rem;
+    gap: 2rem;
+
+
+}
+
+.logo-navbar img {
+    height: 70px;
+    width: auto;
+    padding-right: 1rem;
+}
+
+.site-header ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #be8ccf;
+    transition: color 0.3s ease;
+    /* transición suave */
+    font-family: "Montserrat"
+}
+
+.site-header ul li a:hover {
+    color: #895799;
+}
+
+.formulario-input {
+    display: flex;
+    flex-direction: column;
+    width: 14.5%;
+    padding: 0.5%;
+}
+
+.formulario label {
+    padding-bottom: 0.3rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea {
+    resize: none;
+    /* Disables resizing in all directions */
+}
+
+.formulario button {
+    margin-top: 2rem;
+    height: 35px;
+    width: 75px;
+    background-color: #af79e2;
+    border-style: none;
+    border-radius: 1.8rem;
+    color: rgb(87, 51, 116);
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.formulario button:hover {
+    background-color: #f78885;
+    color: aliceblue;
+}
+
+.formulario-input p {
+    display: none;
+    color: red;
+    padding: 0;
+    margin: 0;
+    padding-top: 0.5rem;
+    font-size: 0.7rem;
+}
+
+.s_msg{
+    display: none;
+    color: rgb(82, 194, 82);
+    font-weight: 600;
+    padding-top: 1rem;
+}
+
+.formulario-input input{
+    background-color: #f1e2ff;
+    height: 22px;
+    border: 2px solid rgb(226, 167, 220);     /* color uniforme */
+    border-radius: 0.6rem;
+    box-shadow: none;          /* quita el sombreado del navegador */
+    outline: none;             /* quita el borde azul de focus */
+    appearance: none;
+}
+.formulario-input textarea{
+    background-color: #f1e2ff;
+    border: 2px solid rgb(226, 167, 220);     /* color uniforme */
+    border-radius: 0.6rem;
+    box-shadow: none;          /* quita el sombreado del navegador */
+    outline: none;             /* quita el borde azul de focus */
+    appearance: none;
+}
