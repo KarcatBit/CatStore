@@ -38,7 +38,6 @@ body {
     font-weight: 600;
     color: #be8ccf;
     transition: color 0.3s ease;
-    /* transición suave */
     font-family: "Montserrat";
 }
 
@@ -52,11 +51,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    /* texto a la izquierda */
     padding-left: 5%;
-    /* separa del borde */
     color: #2d2d2d;
-    /* color del texto */
+
 }
 
 .hero-text {
@@ -91,22 +88,21 @@ body {
 .promo-box {
     height: 300px;
     width: 500px;
-    /* ajusta la altura */
     border-radius: 10px;
     background-size: cover;
     background-position: center;
 }
 
-/* Imagen izquierda */
+
 .promo-box.left {
     background-image: url("./img/logo1.png");
-    /* cambia por tu imagen */
+   
 }
 
-/* Imagen derecha */
+
 .promo-box.right {
     background-image: url("./img/promo2.png");
-    /* cambia por tu imagen */
+   
 }
 
 .categorias {

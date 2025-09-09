@@ -64,7 +64,7 @@ body {
 
 textarea {
     resize: none;
-    /* Disables resizing in all directions */
+   
 }
 
 .formulario button {
@@ -104,17 +104,18 @@ textarea {
 .formulario-input input{
     background-color: #f1e2ff;
     height: 22px;
-    border: 2px solid rgb(226, 167, 220);     /* color uniforme */
+    border: 2px solid rgb(226, 167, 220);     
     border-radius: 0.6rem;
-    box-shadow: none;          /* quita el sombreado del navegador */
-    outline: none;             /* quita el borde azul de focus */
+    box-shadow: none;         
+    outline: none;            
     appearance: none;
 }
 .formulario-input textarea{
     background-color: #f1e2ff;
-    border: 2px solid rgb(226, 167, 220);     /* color uniforme */
+    border: 2px solid rgb(226, 167, 220);    
     border-radius: 0.6rem;
-    box-shadow: none;          /* quita el sombreado del navegador */
-    outline: none;             /* quita el borde azul de focus */
+    box-shadow: none;          
+    outline: none;            
     appearance: none;
 }
+
