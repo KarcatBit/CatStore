@@ -55,6 +55,7 @@ Eliminar producto	  DELETE	/api/v1/products/{id}
 Ver órdenes	        GET	    /api/v1/orders
 
 🛠 Posibles solución de problemas
+
 ❌ Vite no se reconoce
 Ejecutar:
 npm install
